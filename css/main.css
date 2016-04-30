@@ -17,7 +17,7 @@ body {
 }
 
 body:before {
-	background: rgba(255,255,255,0.25);
+	background: rgba(255,255,255,0);
 	content: '';
 	pointer-events: none;
 	position: absolute;
@@ -36,21 +36,22 @@ input {
 	padding: 0.25em 0.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 100;
+	text-align: center;
 	color: #99a;
 	transition: all 0.5s ease;
 }
 
 input {
-	border: 1px solid #99a;
-	padding: 0 0.125ex;
+	/*border: 1px solid #99a;
+	padding: 0 0.125ex;*/
 }
 
 input:focus {
-	background: rgba(255,255,255,0.25);
+	/*background: rgba(255,255,255,0.25);*/
 }
 
 #login-card {
-	margin: 7.5em auto 0;
+	margin: 40.5em auto 0;
 }
 
 #profile-image {
@@ -83,8 +84,9 @@ input:focus {
 #login-name {
 	margin: 0.75em 0 0.25em;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 16px;
+	color: #000000;
 }
 
 #login-form {
@@ -99,9 +101,11 @@ input:focus {
 #password {
 	margin: 0 auto;
 	display: block;
-	font-size: 4vh;
+	font-size: 3vh;
 	font-weight: 900;
+	text:aligh: center;
 	width: 10em;
+	color: #000000
 }
 
 /* Message Area */
