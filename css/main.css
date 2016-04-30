@@ -53,37 +53,11 @@ input:focus {
 	margin: 7.5em auto 0;
 }
 
-#profile-image {
-	opacity: 0;
-	margin: 0 auto;
-	width: 300px;
-
-	-webkit-animation-name: avatar_in;
-	-webkit-animation-iteration-count: 1;
-	-webkit-animation-timing-function: cubic-bezier(0,1.25,1.25,.3);
-	-webkit-animation-fill-mode: forwards;
-	-webkit-animation-delay: 0.5s;
-	-webkit-animation-duration: 0.75s;
-	animation-name: avatar_in;
-	animation-iteration-count: 1;
-	animation-timing-function: cubic-bezier(0,1.25,1.25,.3);
-	animation-fill-mode: forwards;
-	animation-delay: 0.5s;
-	animation-duration: 1s;
-}
-
-#profile-image > img {
-	border-radius: 50%;
-	display: block;
-	max-width: 100%;
-	width: 100%;
-}
-
 #login-name {
 	margin: 0.75em 0 0.25em;
 	text-align: center;
 	font-weight: 300;
-	font-size: 72px;
+	font-size: 16px;
 }
 
 #login-form {
@@ -109,7 +83,7 @@ input:focus {
 	transition: all 0.35s ease;
 	margin: 1.25em auto 0;
 	text-align: center;
-	font-size: 36px;
+	font-size: 12px;
 	font-weight: normal;
 	overflow: visible;
 	max-width: 600px;
