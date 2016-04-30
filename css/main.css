@@ -246,31 +246,3 @@ input:focus {
 	background: rgba(255,255,255,0.25);
 	color: #334;
 }
-
-/* Animation */
-
-@-webkit-keyframes avatar_in {
-    0% {
-        -webkit-transform: translateY(-150px);
-        transform: translateY(-150px);
-		opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-		opacity: 1;
-    }
-}
-
-@keyframes avatar_in {
-    0% {
-        -webkit-transform: translateY(-150px);
-        transform: translateY(-150px);
-		opacity: 0;
-    }
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-		opacity: 1;
-    }
-}
