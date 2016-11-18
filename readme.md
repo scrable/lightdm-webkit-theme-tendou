@@ -10,10 +10,15 @@ The code for the waiting indicator when logging in is based on [this pen](http:/
 
 ## Install
 extract to location
+
 open location in terminal
+
 sudo make install
+
 sudo vim /etc/lightdm/lightdm-webkit2-greeter.conf
+
 webkit-theme=tendou
+
 
 ### Roadmap
 - [x] Messages for invalid passwords
