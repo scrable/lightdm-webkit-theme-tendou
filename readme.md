@@ -8,6 +8,13 @@ This theme allows for switching users, but not graphical sessions. It also allow
 
 The code for the waiting indicator when logging in is based on [this pen](http://codepen.io/vineethtr/pen/GJpxoQ) by @vineethtrv.
 
+## Install
+extract to location
+open location in terminal
+sudo make install
+sudo vim /etc/lightdm/lightdm-webkit2-greeter.conf
+webkit-theme=tendou
+
 ### Roadmap
 - [x] Messages for invalid passwords
 - [ ] Keyboard shortcuts for power actions
