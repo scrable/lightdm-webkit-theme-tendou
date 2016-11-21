@@ -19,6 +19,8 @@ sudo vim /etc/lightdm/lightdm-webkit2-greeter.conf
 
 webkit-theme=tendou
 
+comment out antergos icons/backgrounds for webkit2
+
 
 ### Roadmap
 - [x] Messages for invalid passwords
