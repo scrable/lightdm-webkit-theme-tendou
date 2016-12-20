@@ -15,15 +15,6 @@ open location in terminal
 
 sudo make install
 
-sudo vim /etc/lightdm/lightdm-webkit2-greeter.conf
+sudo vim /etc/lightdm/lightdm-webkit-greeter.conf
 
 webkit-theme=tendou
-
-comment out antergos icons/backgrounds for webkit2
-
-
-### Roadmap
-- [x] Messages for invalid passwords
-- [ ] Keyboard shortcuts for power actions
-- [ ] Keyboard shortcuts for user switching
-- [ ] Graphical session choice support
