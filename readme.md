@@ -3,6 +3,10 @@
 All code comes from fork
 I only change images and remove users
 
+Test here http://scrable.github.io/lightdm-webkit-theme-tendou/
+
+![](https://raw.githubusercontent.com/nejsan/lightdm-webkit-theme-tendou/master/screenshot.png)
+
 ## Install
 extract to location
 
