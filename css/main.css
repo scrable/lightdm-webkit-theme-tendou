@@ -17,7 +17,7 @@ body {
 }
 
 body:before {
-	background: rgba(255,255,255,0);
+	background: rgba(255,255,255,0.25);
 	content: '';
 	pointer-events: none;
 	position: absolute;
@@ -36,29 +36,27 @@ input {
 	padding: 0.25em 0.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 100;
-	text-align: center;
 	color: #99a;
 	transition: all 0.5s ease;
 }
 
 input {
-	/*border: 1px solid #99a;
-	padding: 0 0.125ex;*/
+	border: 1px solid #99a;
+	padding: 0 0.125ex;
 }
 
 input:focus {
-	/*background: rgba(255,255,255,0.25);*/
+	background: rgba(255,255,255,0.25);
 }
 
 #login-card {
-	margin: 40.5em auto 0;
+	margin: 7.5em auto 0;
 }
 
 #profile-image {
 	opacity: 0;
 	margin: 0 auto;
 	width: 300px;
-	display:none
 
 	-webkit-animation-name: avatar_in;
 	-webkit-animation-iteration-count: 1;
@@ -76,7 +74,7 @@ input:focus {
 
 #profile-image > img {
 	border-radius: 50%;
-	display: none;
+	display: block;
 	max-width: 100%;
 	width: 100%;
 }
@@ -84,9 +82,8 @@ input:focus {
 #login-name {
 	margin: 0.75em 0 0.25em;
 	text-align: center;
-	font-weight: 400;
-	font-size: 16px;
-	color: #000000;
+	font-weight: 300;
+	font-size: 72px;
 }
 
 #login-form {
@@ -101,11 +98,9 @@ input:focus {
 #password {
 	margin: 0 auto;
 	display: block;
-	font-size: 3vh;
+	font-size: 4vh;
 	font-weight: 900;
-	text:aligh: center;
 	width: 10em;
-	color: #000000
 }
 
 /* Message Area */
@@ -114,7 +109,7 @@ input:focus {
 	transition: all 0.35s ease;
 	margin: 1.25em auto 0;
 	text-align: center;
-	font-size: 12px;
+	font-size: 36px;
 	font-weight: normal;
 	overflow: visible;
 	max-width: 600px;
@@ -276,4 +271,32 @@ input:focus {
 #power-menu > li:hover {
 	background: rgba(255,255,255,0.25);
 	color: #334;
+}
+
+/* Animation */
+
+@-webkit-keyframes avatar_in {
+    0% {
+        -webkit-transform: translateY(-150px);
+        transform: translateY(-150px);
+		opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+		opacity: 1;
+    }
+}
+
+@keyframes avatar_in {
+    0% {
+        -webkit-transform: translateY(-150px);
+        transform: translateY(-150px);
+		opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+		opacity: 1;
+    }
 }
